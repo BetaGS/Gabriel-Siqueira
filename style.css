@@ -1,0 +1,142 @@
+    /* Estilos básicos para o corpo do site */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        /* Cor de fundo clara */
+    }
+
+    /* Estilo para a seção Hero */
+    #hero {
+        background-color: #590202;
+        /* Cor primária do Bootstrap */
+        color: #1A1E26;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    #sobre {
+        background-color: #1A1E26;
+
+
+    }
+
+    #sobre h2 {
+
+        color: #E80000;
+
+
+    }
+
+    #projetos {
+
+        background-color: #1A1E26;
+
+    }
+
+    .container h2 {
+
+        color: #E80000;
+
+    }
+
+    /* Estilo para a barra de navegação */
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    }
+
+    /* Estilo para as seções */
+    section {
+        padding: 60px 0;
+    }
+
+    /* Estilo para os cards de projeto */
+    .card-project {
+        transition: transform 0.3s ease-in-out;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    }
+
+    .card-project:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
+    }
+
+    #contato {
+
+
+        background-color: #590202;
+
+
+    }
+
+    .social-icon {
+
+        display: inline-block;
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .social-icon .bi-whatsapp {
+
+        color: white !important;
+
+    }
+
+    .social-icon .bi-instagram {
+
+        color: white !important;
+    }
+
+    .social-icon .bi-github {
+
+        color: white !important;
+    }
+
+    .social-icon .bi-linkedin {
+
+        color: white !important;
+    }
+
+
+    .social-icon:hover {
+
+        transform: translateY(-5px) scale(1.1);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: #0d6efd !important;
+
+
+
+    }
+
+    .social-icon:hover .bi-linkedin {
+
+        transform: translateY(-5px) scale(1.1);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: #0487D9 !important;
+
+
+
+    }
+
+    .social-icon:hover .bi-whatsapp {
+
+        transform: translateY(-5px) scale(1.1);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: #00FF4F !important;
+
+
+
+    }
+
+    .social-icon:hover .bi-github {
+
+        transform: translateY(-5px) scale(1.1);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: black !important;
+    }
+
+    .social-icon:hover .bi-instagram {
+
+        transform: translateY(-5px) scale(1.1);
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: #F52E8A !important;
+    }
